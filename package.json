@@ -1,0 +1,13 @@
+{
+  "name": "abhi-on-time-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal Telegram bot that keeps your promises realistic and nudges you with the screen off.",
+  "scripts": {
+    "test": "STORE=memory node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
