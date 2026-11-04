@@ -1,6 +1,5 @@
 import { runTick } from '../../lib/tick.mjs';
 
-// Netlify calls this every minute (cron times are UTC, but the bot only uses timestamps).
 export default async () => {
   try {
     const r = await runTick();
